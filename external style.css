@@ -1,0 +1,41 @@
+table{
+    position: relative;
+    left: 25%;
+    animation-name:initial;
+    border-collapse:collapse;
+}
+
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+    border: unset;
+    padding: 5PX;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+ td{
+    font-weight: bold;
+    text-align: center;
+     border-collapse: collapse;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    padding: 5PX;
+}
+p{
+    text-align: center;
+}
+
+#a0, #b0, #c0, #d0, #e0, #f0, #g0, #h0{
+    border: unset;
+    text-align: end;
+}
+#a1, #a3, #a5, #a7, #b2, #b4, #b6, #b8, #c1, #c3, #c5, #c7, #d2, #d4, #d6, #d8,
+#e1, #e3, #e5, #e7, #f2, #f4, #f6, #f8, #g1, #g3, #g5, #g7, #h2, #h4, #h6, #h8{
+    background-color: black;
+}
